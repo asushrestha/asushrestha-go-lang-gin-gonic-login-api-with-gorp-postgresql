@@ -23,7 +23,7 @@ var dbmap = initDb()
 
 func initDb() *gorp.DbMap {
 	log.Println("test")
-	psqlconn := fmt.Sprintf("host= %s port = %d user= %s password = %s dbname= %s sslmode=enable", host, port, username, password, dbname)
+	psqlconn := fmt.Sprintf("host= %s port = %d user= %s password = %s dbname= %s sslmode=require", host, port, username, password, dbname)
 	log.Println(psqlconn)
 	db, err := sql.Open("postgres", psqlconn)
 	log.Println(db)
