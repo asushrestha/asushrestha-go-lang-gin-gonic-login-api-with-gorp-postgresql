@@ -12,7 +12,7 @@ import (
 )
 
 const (
-	host     = "postgres://isuexdaqctjrhz:b260e378c4e6549a2e74e9d13bc947b99c0b856d8803fa4aef60b9fcb5fb36b5@ec2-107-20-127-127.compute-1.amazonaws.com:5432/dcgs73i6lmq0nc"
+	host     = "localhost"
 	port     = 5432
 	username = "isuexdaqctjrhz"
 	password = "b260e378c4e6549a2e74e9d13bc947b99c0b856d8803fa4aef60b9fcb5fb36b5"
