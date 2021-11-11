@@ -14,9 +14,9 @@ import (
 const (
 	host     = "localhost"
 	port     = 5432
-	username = "postgres"
-	password = "root"
-	dbname   = "test_go"
+	username = "isuexdaqctjrhz"
+	password = "b260e378c4e6549a2e74e9d13bc947b99c0b856d8803fa4aef60b9fcb5fb36b5"
+	dbname   = "dcgs73i6lmq0nc"
 )
 
 var dbmap = initDb()
